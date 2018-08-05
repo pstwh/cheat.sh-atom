@@ -1,8 +1,8 @@
 'use babel';
 
-import Cheat.shAtomView from '../lib/cheat.sh-atom-view';
+import CheatshAtomView from '../lib/cheat.sh-atom-view';
 
-describe('Cheat.shAtomView', () => {
+describe('CheatshAtomView', () => {
   it('has one valid test', () => {
     expect('life').toBe('easy');
   });
