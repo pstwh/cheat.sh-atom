@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle cheat.sh-atom",
+        "command": "cheat.sh-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Cheat.sh",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "cheat.sh-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
